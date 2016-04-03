@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Twittler Feed</title>
+</head>
+<body>
+	<h1>My Twittler Feed</h1>
+	<form id="send" method="POST">
+		<input type="text" placeholder="Twittler's User Name" class="searchInput" ></input>
+		<button class="search" >Search</button>
+	</form>
+
+	<div id="messages">
+		<h3>Tweets</h3>
+		<div class="tweets"></div>
+	</div>
+
+	<script type ="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript">
+		app.init();
+	</script>
+</body>
+</html>
